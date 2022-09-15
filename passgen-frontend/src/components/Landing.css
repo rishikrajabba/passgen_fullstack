@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.Landing{
+    background-image: url("../Images/Landing.jpg");
+    height: 92vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    height: 50vh;
+    width: 60vw;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.landing_heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15vh;
+    letter-spacing: 5px;
+}
+.landingdes{
+    font-size: 1.2rem;
+    width: 70%;
+    line-height: 27px;
+}
+.landing_btn{
+    margin-top: 30px;
+    height: 7vh;
+    width: 15vw;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.landing_btn:hover{
+    transform: translateY(-5px);
+    transition: all .5s;
+}
+.landing_btn:active{
+    transform: translateY(5px);
+    transition: all .5s;
+}

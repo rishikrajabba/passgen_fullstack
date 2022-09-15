@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt',sans-serif;
+}
+.generate{
+    height: 92vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,#FF94CC,#A239EA);
+}
+.generate_container{
+    height: 80vh;
+    width: 40vw;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.generate_form{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.generate_length{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 80%;
+}
+.strength{
+    width: 70%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.generate_flexer{
+    width: 5vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.result{
+    margin-bottom: 20px;
+}
+.cred{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cred>input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    
+}
+.stored_message{
+    color: white;
+    font-size: 2rem;
+}
